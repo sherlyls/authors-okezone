@@ -1,0 +1,47 @@
+:root {
+    --bigbox: calc((100% -72) / 3);
+    --smallbox: calc(100% - var(--bigbox));
+  }
+
+
+#author .pimpinan {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#author .pimpinan .grup-redaktur {
+    display: flex;
+    width: calc(100% / 2);
+}
+
+#author .pimpinan .big-box {
+    width: var(--bigbox);
+    height: 466px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#author .pimpinan .small-box {
+    width: var(--smallbox);
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+}
+
+/* #author .pimpinan .small-box {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+#author .pelaksana .grup-redaktur {
+    display: flex;
+    width: calc((100% -72) / 3);
+}
+
+#author .pelaksana {
+    display: flex;
+    flex-wrap: wrap;
+}
+
