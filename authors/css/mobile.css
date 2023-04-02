@@ -523,3 +523,7 @@
   position: absolute;
   bottom: -12px;
 }
+
+.to-top .fa-angle-up {
+  margin-top: 13px;
+}
