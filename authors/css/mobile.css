@@ -28,28 +28,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #f9f9f9;
-  box-shadow: 0px 4px 20px rgba(146, 146, 146, 0.25);
-  border-radius: 20px;
   width: var(--bigbox);
   cursor: pointer;
   padding: 12px 0;
   height: 266px;
+  background: #F5F5F5;
+  box-shadow: 0px 3px 9px rgba(184, 184, 184, 0.25);
+  border-radius: 20px;
 }
 
 #author-mobile .grup-redaktur,
 #detail-author .grup-redaktur,
 #flex-author .grup-redaktur {
   display: flex;
-  background: #f9f9f9;
-  box-shadow: 0px 4px 20px rgba(146, 146, 146, 0.25);
-  border-radius: 20px;
   margin-bottom: 20px;
   cursor: pointer;
   margin-top: 12px;
   height: 116px;
   align-items: center;
   width: 100%;
+  background: #F5F5F5;
+  box-shadow: 0px 3px 9px rgba(184, 184, 184, 0.25);
+  border-radius: 20px;
 }
 
 #author-mobile .image,
@@ -400,6 +400,7 @@
   display: flex;
   justify-content: center;
   margin-right: 16px;
+  margin-top: 16px;
 }
 
 #tab-ter-author {
@@ -475,15 +476,15 @@
 }
 
 .img-active-text-paging {
-  background-image: url("/authors/img/blue-arrow-right.png");
   height: 10.5px;
   width: 5.25px;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  background-size: cover;
-  z-index: 999;
-  background-position: center;
-  display: block;
+  
+}
+
+.img-active-text-paging img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #author-mobile .menu-authors {
