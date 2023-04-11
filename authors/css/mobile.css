@@ -164,7 +164,7 @@
 #author-mobile .toshow7,
 #author-mobile .toshow8,
 #author-mobile .toshow9 {
-  display: flex !important;
+  display: block !important;
 }
 
 .rotate-image {
