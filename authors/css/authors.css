@@ -7,6 +7,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #author-okz .menu-authors::after,
 #menu-authors::after {
   content: "";
@@ -130,7 +134,7 @@
 #author-okz .pimpinan .grup-redaktur:hover,
 #detail-author .grup-redaktur:hover {
   background-color: white;
-} 
+}
 
 #author-okz .tohide2,
 #author-okz .tohide3,
@@ -139,7 +143,8 @@
 #author-okz .tohide6,
 #author-okz .tohide7,
 #author-okz .tohide8,
-#author-okz .tohide9 {
+#author-okz .tohide9,
+#author-okz .tohide10 {
   display: none !important;
 }
 
@@ -150,7 +155,8 @@
 #author-okz .toshow6,
 #author-okz .toshow7,
 #author-okz .toshow8,
-#author-okz .toshow9 {
+#author-okz .toshow9,
+#author-okz .toshow10 {
   display: flex !important;
 }
 
@@ -173,7 +179,7 @@
   background: #FFFFFF;
   box-shadow: 0px 2px 20px rgba(11, 11, 11, 0.25);
   border-radius: 10px;
-} 
+}
 
 #author-okz .pimpinan,
 #author-okz .pelaksana,
@@ -245,7 +251,6 @@
 #author-okz .con-desc,
 #detail-author .con-desc {
   width: calc(100% - 80px - 30px);
-  padding-right: 15px;
 }
 
 #author-okz .con-desc div:nth-child(2),
@@ -263,6 +268,10 @@
 }
 
 /* WP bawah container */
+
+#author-news:target {
+  padding-top: 30px;
+}
 
 #author-news .container {
   position: relative;
@@ -455,6 +464,32 @@
   margin-top: 12px;
 }
 
+#detail-author .display-news .desc-display div:nth-child(3) > :first-child,
+#detail-author .display-news .desc-display div:nth-child(3) {
+  visibility: visible;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+#detail-author .display-news .desc-display div:nth-child(3) #cke_pastebin:nth-child(2),
+#detail-author .display-news .desc-display div:nth-child(3) #cke_pastebin:nth-child(3),
+#detail-author .display-news .desc-display div:nth-child(3) #cke_pastebin:nth-child(4),
+#detail-author .display-news .desc-display div:nth-child(3) #cke_pastebin:nth-child(5),
+#detail-author .display-news .desc-display div:nth-child(3) #cke_pastebin:nth-child(6),
+#detail-author .display-news .desc-display div:nth-child(3) #cke_pastebin:nth-child(7),
+#detail-author .display-news .desc-display div:nth-child(3) #cke_pastebin:nth-child(8),
+#detail-author .display-news .desc-display div:nth-child(3) #cke_pastebin:nth-child(9),
+#detail-author .display-news .desc-display div:nth-child(3) #cke_pastebin:nth-child(10),
+#detail-author .display-news .desc-display div:nth-child(3) p:nth-child(2),
+#detail-author .display-news .desc-display div:nth-child(3) p:nth-child(3){
+  visibility: hidden;
+}
+
+
 #detail-author .ads-author {
   width: 100%;
   height: 90px;
@@ -528,7 +563,7 @@
 .img-active-text-paging {
   height: 10.5px;
   width: 5.25px;
-  
+
 }
 
 .img-active-text-paging img {
@@ -709,6 +744,10 @@
   padding-left: 16px;
   padding-right: 12px;
   margin-bottom: 12px;
+}
+
+.redaksi-active-class {
+  border-bottom: 2px solid #f7c574;
 }
 
 /* sosmed  */

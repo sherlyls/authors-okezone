@@ -26,6 +26,9 @@ $(document).ready(function () {
     $(".9th-title").click(function () {
         $(".tohide9").toggleClass("toshow9");
     });
+    $(".10th-title").click(function () {
+        $(".tohide10").toggleClass("toshow10");
+    });
     $(".rotate1, .1st-title div").click(function () {
         $(".rotate1").toggleClass("rotate-image");
     });
@@ -53,6 +56,9 @@ $(document).ready(function () {
     $(".rotate9, .9th-title div").click(function () {
         $(".rotate9").toggleClass("rotate-image");
     });
+    $(".rotate10, .10th-title div").click(function () {
+        $(".rotate10").toggleClass("rotate-image");
+    });
 });
 
 function openTabNewsAuthor(evt, tabNewsAuthor) {
@@ -78,3 +84,15 @@ function functionTabNewsAuthor(e) {
     });
     e.target.className = "active-author-news";
 }
+
+$("#scrol-berita-terkini").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#author-news").offset().top-60
+    });
+});
+
+$("#scrolsticky-berita-terkini").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#author-news").offset().top-60
+    });
+});
