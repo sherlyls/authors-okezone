@@ -111,14 +111,20 @@ html {
 
 #author-mobile .pelaksana .text1,
 #author-mobile .pimpinan .text1 {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 #flex-author .text1 {
   font-weight: 400;
 }
 
-#author-mobile .text2,
+#author-mobile .text2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
 #flex-author .text2 {
   font-weight: 700;
   font-size: 16px;
