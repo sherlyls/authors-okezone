@@ -342,6 +342,7 @@ html {
   width: 80px;
   height: 80px;
   border-radius: 100%;
+  object-fit: cover;
 }
 
 .big-card-mob .grup-2 .flex-grup-2 .text-1 {
